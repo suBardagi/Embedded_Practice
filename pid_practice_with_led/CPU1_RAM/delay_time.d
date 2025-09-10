@@ -2,8 +2,8 @@
 
 delay_time.obj: ../delay_time.c
 delay_time.obj: ../delay_time.h
-delay_time.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h
-delay_time.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h
+delay_time.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h
+delay_time.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h
 delay_time.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h
 delay_time.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h
 delay_time.obj: C:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h
@@ -94,9 +94,9 @@ delay_time.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/dri
 
 ../delay_time.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h:
 

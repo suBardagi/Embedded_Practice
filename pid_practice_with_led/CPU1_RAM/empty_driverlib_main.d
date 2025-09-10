@@ -1,7 +1,7 @@
 # FIXED
 
 empty_driverlib_main.obj: ../empty_driverlib_main.c
-empty_driverlib_main.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h
+empty_driverlib_main.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h
 empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h
 empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h
 empty_driverlib_main.obj: C:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h
@@ -87,7 +87,7 @@ empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/dri
 empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_spi.h
 empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/version.h
 empty_driverlib_main.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/driver_inclusive_terminology_mapping.h
-empty_driverlib_main.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h
+empty_driverlib_main.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h
 empty_driverlib_main.obj: syscfg/board.h
 empty_driverlib_main.obj: syscfg/c2000ware_libraries.h
 empty_driverlib_main.obj: ../GPIO_config.h
@@ -96,7 +96,7 @@ empty_driverlib_main.obj: ../pid.h
 
 ../empty_driverlib_main.c:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h:
 
@@ -268,7 +268,7 @@ C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/version.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/driver_inclusive_terminology_mapping.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h:
 
 syscfg/board.h:
 

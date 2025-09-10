@@ -3,7 +3,7 @@
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.c
 syscfg/c2000ware_libraries.obj: syscfg/c2000ware_libraries.h
 syscfg/c2000ware_libraries.obj: syscfg/board.h
-syscfg/c2000ware_libraries.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h
+syscfg/c2000ware_libraries.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h
 syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h
 syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h
 syscfg/c2000ware_libraries.obj: C:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h
@@ -89,7 +89,7 @@ syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f2800
 syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_spi.h
 syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/version.h
 syscfg/c2000ware_libraries.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/driver_inclusive_terminology_mapping.h
-syscfg/c2000ware_libraries.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h
+syscfg/c2000ware_libraries.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h
 
 syscfg/c2000ware_libraries.c:
 
@@ -97,7 +97,7 @@ syscfg/c2000ware_libraries.h:
 
 syscfg/board.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h:
 
@@ -269,5 +269,5 @@ C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/version.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/driver_inclusive_terminology_mapping.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h:
 

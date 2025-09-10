@@ -2,8 +2,8 @@
 
 pid.obj: ../pid.c
 pid.obj: ../pid.h
-pid.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h
-pid.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h
+pid.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h
+pid.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h
 pid.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h
 pid.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h
 pid.obj: C:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdbool.h
@@ -95,9 +95,9 @@ pid.obj: C:/ti/ccs2020/ccs/tools/compiler/ti-cgt-c2000_22.6.2.LTS/include/stdarg
 
 ../pid.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_memmap.h:
 
