@@ -1,0 +1,12 @@
+"./GPIO_config.obj"
+"./syscfg/board.obj"
+"./syscfg/c2000ware_libraries.obj"
+"./delay_time.obj"
+"./empty_driverlib_main.obj"
+"./pid.obj"
+"./device/device.obj"
+"./device/f28002x_codestartbranch.obj"
+"../28002x_generic_ram_lnk.cmd"
+"C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/ccs/Debug/driverlib.lib"
+-lc2000ware_libraries.cmd.genlibs
+-llibc.a
