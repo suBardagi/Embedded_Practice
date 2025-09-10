@@ -26,8 +26,8 @@ GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/in
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_outputxbar.h
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_xbar.h
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/debug.h
-GPIO_config.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h
-GPIO_config.obj: C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h
+GPIO_config.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h
+GPIO_config.obj: C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_adc.h
 GPIO_config.obj: C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_asysctl.h
@@ -142,9 +142,9 @@ C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/inc/hw_xbar.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/debug.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/device.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/device.h:
 
-C:/Users/User/CCS_Practices/pid_practice_with_led/device/driverlib.h:
+C:/Users/User/Embedded_Practice/pid_practice_with_led/device/driverlib.h:
 
 C:/ti/c2000/C2000Ware_6_00_00_00/driverlib/f28002x/driverlib/adc.h:
 
