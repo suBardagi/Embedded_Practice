@@ -10,6 +10,9 @@ typedef struct{
     float Kd;
     float integral;
     float prev_error;
+    float prev_prev_error;
+    uint8_t step_count;
+    uint8_t started;
 
     // limits for the PID
     float integral_max;

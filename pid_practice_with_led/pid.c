@@ -8,8 +8,11 @@ void pid_init(PID_controller *pid, float Kp, float Ki, float Kd, uint8_t use_lim
     pid->Kd = Kd;
     pid->integral = 0.0f;
     pid->prev_error = 0.0f;
+    pid->prev_prev_error = 0.0f;
     pid->use_limits = use_limits;
     pid->use_dt = use_dt;
+    pid->step_count = 0;
+    pid->started = 0;
 
     va_list args;
     va_start(args, use_dt);
@@ -40,7 +43,32 @@ float pid_compute(PID_controller *pid, float set, float measurement){
     
     //Integral update
     if(pid->use_dt){
-        pid->integral += 0.5f * (error + pid->prev_error) * pid->dt * pid->Ki;
+        if(!pid->started){
+            if(pid->step_count==0){
+                pid->integral += error * pid->dt * pid->Ki; // Rectangle
+            }
+            else if(pid->step_count==1){
+                pid->integral += 0.5f * (error + pid->prev_error) * pid->dt * pid->Ki; // Trapezoidal
+                pid->started = 1;
+            }
+        }
+        else{  // Simpson's rule cycle
+            if(pid->step_count==0){
+                pid->integral += (error * pid->dt * pid->Ki) / 3.0f;
+            }
+            else if(pid->step_count==1){
+                pid->integral += (4.0f * error * pid->dt * pid->Ki) / 3.0f;
+            }
+            else{
+                pid->integral += (error * pid->dt * pid->Ki) / 3.0f;
+            }
+        }
+
+        pid->step_count = (pid->step_count + 1) % 3;
+
+        //float simpson_term = (pid->dt / 3.0f)*(error + 4.0f * pid->prev_error + pid->prev_prev_error);
+        //pid->integral += simpson_term * pid->Ki;
+        //pid->integral += 0.5f * (error + pid->prev_error) * pid->dt * pid->Ki;
     }
     else {
         pid->integral += error * pid->Ki;
@@ -70,7 +98,7 @@ float pid_compute(PID_controller *pid, float set, float measurement){
         if(output > pid->output_max) output = pid->output_max;
         if(output < pid->output_min) output = pid->output_min;
     }
-    
+    pid->prev_prev_error = pid->prev_error;
     pid->prev_error = error;
     return output;
 
